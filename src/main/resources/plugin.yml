@@ -1,0 +1,14 @@
+name: SnowballExplosion
+version: '${version}'
+main: unikue3118.snowball.SnowballPlugin
+api-version: 1.19
+authors: [ unikue3118 ]
+commands:
+  snowballexplode:
+    description: 눈덩이 폭발 적용
+    usage: OP 권한 필요
+    permission: SnowballExplosion.Operator
+permissions:
+  SnowballExplosion.Operator:
+    description: OP
+    default: op
